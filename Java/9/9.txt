@@ -1,0 +1,139 @@
+Aim
+
+To study the concepts of Virtualization and AWS Cloud Computing.
+
+Theory
+Virtualization
+
+Virtualization is a technology that allows multiple virtual machines (VMs) to run on a single physical computer system.
+
+It helps in efficient utilization of hardware resources by creating virtual versions of:
+
+Operating Systems
+Servers
+Storage Devices
+Networks
+Types of Virtualization
+1. Hardware Virtualization
+
+Creates virtual machines using a hypervisor.
+
+2. Server Virtualization
+
+Divides a physical server into multiple virtual servers.
+
+3. Storage Virtualization
+
+Combines multiple storage devices into one virtual storage unit.
+
+4. Network Virtualization
+
+Creates virtual networks for better management.
+
+Advantages of Virtualization
+Better resource utilization
+Reduced hardware cost
+Easy backup and recovery
+Scalability
+Improved security
+Faster deployment
+Hypervisor
+
+A Hypervisor is software used to create and manage virtual machines.
+
+Types of Hypervisors
+Type 1 Hypervisor
+
+Runs directly on hardware.
+
+Examples:
+
+VMware ESXi
+Microsoft Hyper-V
+Type 2 Hypervisor
+
+Runs on an operating system.
+
+Examples:
+
+Oracle VirtualBox
+VMware Workstation
+Cloud Computing
+
+Cloud Computing provides computing services over the internet such as:
+
+Storage
+Servers
+Databases
+Networking
+Software
+
+Users can access resources anytime without managing physical infrastructure.
+
+Types of Cloud
+Cloud Type	Description
+Public Cloud	Services available publicly over internet
+Private Cloud	Dedicated cloud for one organization
+Hybrid Cloud	Combination of public and private cloud
+AWS Cloud
+
+Amazon Web Services is a popular cloud computing platform provided by Amazon.
+
+AWS offers on-demand cloud services like:
+
+Virtual Servers
+Storage
+Databases
+Networking
+Security
+Important AWS Services
+Service	Purpose
+EC2	Virtual servers
+S3	Cloud storage
+RDS	Managed database
+Lambda	Serverless computing
+VPC	Virtual private cloud
+IAM	Security and access management
+AWS EC2
+Elastic Compute Cloud (EC2)
+
+EC2 allows users to create virtual machines called instances.
+
+Features
+Scalable computing
+Flexible configuration
+Pay-as-you-go pricing
+Secure environment
+AWS S3
+Simple Storage Service (S3)
+
+S3 is used for storing files and data in the cloud.
+
+Features
+High durability
+Secure storage
+Backup support
+Easy accessibility
+Steps to Launch EC2 Instance
+Login to AWS Console.
+Open EC2 Dashboard.
+Click “Launch Instance”.
+Choose Operating System.
+Select Instance Type.
+Configure Security Group.
+Launch Instance.
+Connect using SSH/RDP.
+Advantages of AWS Cloud
+Scalability
+Reliability
+High availability
+Security
+Cost-effective
+Global infrastructure
+Applications of Cloud Computing
+Web Hosting
+Online Storage
+Machine Learning
+Big Data Processing
+Application Development
+Backup and Disaster Recovery

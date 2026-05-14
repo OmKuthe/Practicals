@@ -1,0 +1,160 @@
+Aim
+
+To study the concepts and features of Maven, Jira, Mockito, and Docker used in software development and DevOps.
+
+1. Maven
+Introduction
+
+Apache Maven is a build automation and project management tool mainly used for Java projects.
+
+It helps developers:
+
+Manage dependencies
+Compile code
+Run tests
+Package applications
+Features of Maven
+Dependency management
+Build automation
+Project standardization
+Plugin support
+Easy integration
+Maven Project Structure
+project
+│
+├── src
+│   ├── main
+│   └── test
+│
+├── pom.xml
+pom.xml
+
+The pom.xml file contains:
+
+Project information
+Dependencies
+Plugins
+Build configuration
+
+Example:
+
+<project>
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.example</groupId>
+    <artifactId>demo</artifactId>
+    <version>1.0</version>
+
+    <dependencies>
+
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.12</version>
+        </dependency>
+
+    </dependencies>
+</project>
+Advantages of Maven
+Reduces manual work
+Automatic dependency download
+Standard project structure
+Easy project management
+2. Jira
+Introduction
+
+Jira is a project management and bug tracking tool developed by Atlassian.
+
+It is used in Agile and Scrum development.
+
+Features of Jira
+Task management
+Bug tracking
+Sprint planning
+Workflow management
+Reporting and dashboards
+Uses of Jira
+Assign tasks
+Track project progress
+Manage software development lifecycle
+Team collaboration
+Jira Workflow
+To Do → In Progress → Testing → Done
+Advantages of Jira
+Better project tracking
+Improved collaboration
+Agile support
+Real-time monitoring
+3. Mockito
+Introduction
+
+Mockito is a Java framework used for unit testing.
+
+It creates mock objects for testing applications.
+
+Features of Mockito
+Mock object creation
+Easy unit testing
+Supports test-driven development
+Reduces dependency issues
+Example of Mockito
+import static org.mockito.Mockito.*;
+
+public class MockitoExample {
+
+    public static void main(String[] args) {
+
+        // Creating mock object
+        List list = mock(List.class);
+
+        // Defining behavior
+        when(list.get(0)).thenReturn("Hello");
+
+        // Display result
+        System.out.println(list.get(0));
+    }
+}
+Advantages of Mockito
+Simplifies testing
+Improves code quality
+Faster testing
+Isolated testing environment
+4. Docker
+Introduction
+
+Docker is a containerization platform used to develop, deploy, and run applications inside containers.
+
+Containers package:
+
+Application
+Libraries
+Dependencies
+Features of Docker
+Lightweight containers
+Fast deployment
+Platform independence
+Scalability
+Easy application sharing
+Docker Components
+Component	Description
+Docker Engine	Core runtime
+Docker Image	Blueprint of container
+Docker Container	Running instance
+Docker Hub	Online image repository
+Basic Docker Commands
+docker --version
+docker pull ubuntu
+docker images
+docker run ubuntu
+docker ps
+Advantages of Docker
+Consistent environment
+Faster deployment
+Better scalability
+Reduced resource usage
+Comparison Table
+Technology	Purpose
+Maven	Build and dependency management
+Jira	Project and issue tracking
+Mockito	Unit testing
+Docker	Containerization
